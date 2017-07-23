@@ -6,7 +6,7 @@ class Point{
 	static distance(a,b){//using Static method 
 		const  dx=a.x-b.x;
 		const dy=a.y-b.y;
-		     return Math.hypot(dx,dy);//sqrt((a*a)=(b*b))
+		     return Math.hypot(dx,dy);//sqrt((a*a)+(b*b))
 	}
 }
 p1=new Point(5,5);//line point a
