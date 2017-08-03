@@ -4038,3 +4038,27 @@ ldap.max_links = -1
   
   Solution:
   sudo apt-get install php-xml
+  ##################
+  # problem4       #
+  [PDOException]
+could not find driver
+
+solution:
+
+
+    *. find php.ini path via phpinfo()
+
+   * uncomment
+
+    extension=php_pdo_mysql.dll
+
+    * add this line
+
+    extension=pdo_mysql.so
+
+    * then run
+
+    sudo apt-get install php-mysql
+
+
+  ##################
