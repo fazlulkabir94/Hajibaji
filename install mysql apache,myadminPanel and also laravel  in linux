@@ -128,3 +128,12 @@ file permission var/www folder: sudo chmod 777 /var/www
 
 show phpmyadmin panel:
 sudo ln -s /usr/share/phpmyadmin /var/www/html 
+
+
+1.install composer
+curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer
+2.install laravel
+cd /var/www/html
+composer create-project --prefer-dist laravel/laravel project_name
+cd project_name
+php artisan serve
