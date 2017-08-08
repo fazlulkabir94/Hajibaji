@@ -1,0 +1,130 @@
+Open Terminal
+
+
+
+01. Installing MySQL 5
+
+
+
+sudo apt-get install mysql-server mysql-client
+
+
+
+02. You will be asked to provide a password for the MySQL root user - this password is valid for the user root@localhost as well as root@server1.example.com, so we don't have to specify a MySQL root password manually later on:
+
+
+
+New password for the MySQL "root" user:
+
+Repeat password for the MySQL "root" user:
+
+
+
+03. Installing Apache2
+
+
+
+sudo apt-get install apache2
+
+
+
+04. Now direct your browser to http://127.0.0.1, and you should see the Apache2 placeholder page.
+
+
+
+05. Installing PHP5
+
+
+
+sudo apt-get install php5 libapache2-mod-php5
+
+
+
+06. Restart Apache afterwards:
+
+sudo /etc/init.d/apache2 restart
+
+
+
+07. Testing PHP5 / Getting Details About Your PHP5 Installation
+
+
+
+sudo gedit /var/www/info.php
+
+
+
+08. Paste the following line.
+
+
+
+phpinfo();
+
+?>
+
+
+
+09. Save & close.
+
+
+
+10. Now we call that file in a browser (e.g. http://127.0.0.1/info.php):
+
+
+
+As you see, PHP5 is working, and it's working through the Apache 2.0 Handler, as shown in the Server API line. If you scroll further down, you will see all modules that are already enabled in PHP5. MySQL is not listed there which means we don't have MySQL support in PHP5 yet.
+
+
+
+11. Getting MySQL Support In PHP5
+
+
+
+sudo apt-get install php5-mysql
+
+
+
+12. It's a good idea to install some other PHP5 modules as well as you might need them for your applications. You can search for available PHP5 modules like this:
+
+
+
+sudo apt-cache search php5
+
+
+
+13. Pick the ones you need and install them like this:
+
+sudo apt-get install php5-fpm php5-suhosin php-apc php5-cli php5-cgi php5-gd php5-curl
+
+
+
+14. Now restart Apache2:
+
+
+
+sudo /etc/init.d/apache2 restart
+
+
+
+15. Start php5-fpm.
+
+
+
+sudo /etc/init.d/php5-fpm start
+
+
+
+16.Installing phpMyAdmin
+
+
+
+sudo apt-get install phpmyadmin
+
+
+
+17. Now reload http://127.0.0.1/info.php in your browser and scroll down to the modules section again. You should now find lots of new modules there, including the MySQL module.
+
+file permission var/www folder: sudo chmod 777 /var/www
+
+show phpmyadmin panel:
+sudo ln -s /usr/share/phpmyadmin /var/www/html 
