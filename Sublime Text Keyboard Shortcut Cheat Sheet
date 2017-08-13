@@ -1,0 +1,77 @@
+Key to the Keys
+
+    ⌘ : Command key
+    ⌃ : Control key
+    ⌫ : Delete key
+    ↓ : Down arrow key
+    ⌥ : Option or Alt key
+    ↩ : Return or Enter key
+    ⇧ : Shift key
+    ↑ : Up arrow key
+
+: indicates that the step after the arrow should take place after the step before the arrow
+General
+	Command 	Mac OSX 	Windows 	Linux
+	Open Cmd Prompt 	⌘ + ⇧ + P 	Ctrl + ⇧ + P 	Ctrl + ⇧ + P
+	Toggle Side Bar 	⌘ + K, ⌘ + B 	Ctrl + KB 	Ctrl + KB
+	Show Scope (Status Bar) 	⌃ + ⇧ + P 	Ctrl + ⇧ + Alt + P 	Ctrl + ⇧ + Alt + P
+Language
+	Command 	Mac OSX 	Windows 	Linux
+	Select File Language 	⌘ + ⇧ + P [language] 	Ctrl + ⇧ + P [language] 	Ctrl + ⇧ + P [language]
+
+Use the “Set Syntax: [language]” selection that is automatically populated in the command menu when you type the programming language.
+Editing
+	Command 	Mac OSX 	Windows 	Linux
+	Delete Line 	⌘ + X 	Ctrl + X 	Ctrl + X
+	Insert Line After 	⌘ + ↩ 	Ctrl + ↩ 	Ctrl + ↩
+	Insert Line Before 	⌘ + ⇧ + ↩ 	Ctrl + ⇧ + ↩ 	Ctrl + ⇧ + ↩
+	Move Line Up 	⌘ + ⌃ + ↑ 	Ctrl + ⇧ + ↑ 	Ctrl + ⇧ + ↑
+	Move Line Down 	⌘ + ⌃ + ↓ 	Ctrl + ⇧ + ↓ 	Ctrl + ⇧ + ↓
+	Select Line 	⌘ + L 	Ctrl + L 	Ctrl + L
+	Select Word 	⌘ + D 	Ctrl + D 	Ctrl + D
+	Multi-Select Editing 	⌃ + ⌘ + G 	Alt + F3 	Alt + F3
+	Jump to Closing Parenthesis 	⌃ + M 	Ctrl + M 	Ctrl + M
+	Select Contents of Current Parentheses 	⌃ + ⇧ + M 	Ctrl + ⇧ + M 	Ctrl + ⇧ + M
+	Delete from Cursor to End of Line 	⌘ + K,⌘ + K 	Ctrl + KK 	Ctrl + KK
+	Delete from Cursor to Start of Line 	⌘ + K + ⌫ 	Ctrl + K + ⌫ 	Ctrl + K + ⌫
+	Indent Current Line(s) 	⌘ + ] 	Ctrl + ] 	Ctrl + ]
+	Unindent Current Line(s) 	⌘ + [ 	Ctrl + [ 	Ctrl + [
+	Duplicate Line(s) 	⌘ + ⇧ + D 	Ctrl + ⇧ + D 	Ctrl + ⇧ + D
+	Join Line Below Current Line 	⌘ + J 	Ctrl + J 	Ctrl + J
+	Comment/Uncomment Current Line 	⌘ + / 	Ctrl + / 	Ctrl + /
+	Block Comment Current Selection 	⌘ + ⌥ + / 	Ctrl + ⇧ + / 	Ctrl + ⇧ + /
+	Redo/Repeat Last Keyboard Shortcut 	⌘ + Y 	Ctrl + Y 	Ctrl + Y
+	Paste with Proper Indenting 	⌘ + ⇧ + V 	Ctrl + ⇧ + V 	Ctrl + ⇧ + V
+	Select Next Autocomplete Suggestion 	⌃ + Space 	Ctrl + Space 	Ctrl + Space
+	Soft Undo 	⌃ + U 	Ctrl + U 	Ctrl + U
+	Column Selection Up 	⌃ + ⇧ + Up 	Ctrl + Alt + Up 	Alt + ⇧ + Up
+	Column Selection Down 	⌃ + ⇧ + Down 	Ctrl + Alt + Down 	Alt + ⇧ + Down
+Transform
+	Command 	Mac OSX 	Windows 	Linux
+	To Uppercase 	⌘ + K, ⌘ + U 	Ctrl + KU 	Ctrl + KU
+	To Lowercase 	⌘ + K, ⌘ + L 	Ctrl + KL 	Ctrl + KL
+	Increase Font Size 	⌘ + 	Ctrl + 	Ctrl +
+	Decrease Font Size 	⌘ – 	Ctrl – 	Ctrl –
+Find & Replace
+	Command 	Mac OSX 	Windows 	Linux
+	Find 	⌘ + F 	Ctrl + F 	Ctrl + F
+	Replace 	⌘ + ⌥ + F 	Ctrl + H 	Ctrl + H
+	Find in Files 	⌘ + ⇧ + F 	Ctrl + ⇧ + F 	Ctrl + ⇧ + F
+	Use Selection for Find 	⌘ + E 	Ctrl + E 	Ctrl + E
+	Use Selection for Replace 	⇧ + ⌘ + E 	⇧ + Ctrl + E 	⇧ + Ctrl + E
+Navigation
+	Command 	Mac OSX 	Windows 	Linux
+	Quick Open File (by Name) 	⌘ + P 	Ctrl + P 	Ctrl + P
+	Go To Symbol 	⌘ + R 	Ctrl + R 	Ctrl + R
+	Go To Line 	⌃ + G 	Ctrl + G 	Ctrl + G
+Code Folding
+	Command 	Mac OSX 	Windows 	Linux
+	Fold Selection 	⌥ + ⌘ + [ 	⇧ + Ctrl + [ 	⇧ + Ctrl + [
+	Unfold Selection 	⌥ + ⌘ + ] 	⇧ + Ctrl + ] 	⇧ + Ctrl + ]
+	Unfold All 	⌘ + K, ⌘ + J 	Ctrl +KJ 	Ctrl + KJ
+Bookmarks
+	Command 	Mac OSX 	Windows 	Linux
+	Toggle Bookmark 	⌘ + F2 	Ctrl + F2 	Ctrl + F2
+	Next Bookmark 	F2 	F2 	F2
+	Previous Bookmark 	⇧ + F2 	⇧ + F2 	⇧ + F2
+	Clear Bookmarks 	⇧ + ⌘ + F2 	⇧ + Ctrl + F2 	⇧ + Ctrl + F2
