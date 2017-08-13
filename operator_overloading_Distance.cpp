@@ -38,7 +38,7 @@ public:
 	}
 	Distance operator++(){//Prefix operator overloading
 		Distance temp;
-		Inch++;
+		++Inch;
 		temp.Inch=Inch;
 		return temp;
 	}
