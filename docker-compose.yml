@@ -1,0 +1,14 @@
+version: '2'
+services:
+    db:
+        image: postgres
+        container_name: 'my_postgres'
+    web:
+        build: .
+        command: python manage.py runserver 0.0.0.0:8010
+        volumes:
+            - .:/code
+        ports:
+            - "8010:8010"
+        depends_on:
+            - db
